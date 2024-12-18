@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./config.css">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body id="body">
+   
+    <header>
+
+        <nav class="w-[1418px] h-[64px] flex justify-between mx-auto items-center">
+            <img src="Logo.png" alt="">
+
+            <ul class="flex gap-[40px] items-center">
+                <li>Shop</li>
+                <li>Brands</li>
+                <li>Contrct us</li>
+                <button class="w-[168px] h-[64px] bg-black text-[#FFFFFF] rounded-[50px]">Sign up</button>
+            </ul>
+        </nav>
+
+
+        <div class="flex justify-between mx-auto my-[50px] items-center w-[1400px] h-[619px] custom-gradient">
+            
+            <div class="w-[613px] h-[512px]">
+                <h2 class="text-[#FFFFFF] text-[76px]">Exquisite Watches</h2>
+                <h3 class="text-[#FFFFFF] text-[52px]">Choose Luxury, Choose Us</h3>
+                <br>
+                <p class="text-[24px]">Discover the Perfect Watch for Every Occasion and Elevate Your Style with Timeless Elegance and Precision Craftsmanship - watch</p>
+
+                <h1 class="font-bold text-[#FFFFFF] text-[70px]">$430.00</h1>
+            </div>
+
+
+            <!-- Slider main container -->
+        <div class="swiper bg-transparent w-[500px] h-[619px] ">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper" id="sw_os">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                   <img src="Watches.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="Watches.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                   <img src="Watches.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="Watches.png" alt="">
+                 </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+    
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+    
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+        </div>
+    
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
